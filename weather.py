@@ -3,7 +3,7 @@
 
 from pyowm import OWM
 
-owm = OWM('b400fd18725654edcf9d064102da6409')
+owm = OWM('API KE')
 place = input('Введи название вашего города')
 mgr = owm.weather_manager()
 observation = mgr.weather_at_place(place)
